@@ -1,0 +1,47 @@
+# ===========================================
+# Sistema Empresarial de Vendas — .gitignore
+# ===========================================
+
+# ---- Binários compilados ----
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# ---- Arquivos de objeto (compilação) ----
+*.o
+*.obj
+bin/
+obj/
+
+# ---- Arquivos de IDE / Code::Blocks ----
+*.cbp
+*.depend
+*.layout
+*.workspace
+*.creator
+*.filters
+*.user
+
+# ---- Dados de runtime (gerados pelo programa) ----
+# Arquivos binários de dados
+*.dat
+# Arquivo de estado de venda em andamento
+venda_estado.dat
+
+# ---- Arquivos de texto gerados pelo sistema ----
+vendas.txt
+clientes.txt
+contador_vendas.txt
+estoque_venda.txt
+
+# ---- Relatórios gerados ----
+relatorio_estoque_*.txt
+relatorio_vendasLista.txt
+relatorio_vendasTotais.txt
+relatorio_intervaloDeVendas.txt
+
+# ---- Outros ----
+.DS_Store
+Thumbs.db
